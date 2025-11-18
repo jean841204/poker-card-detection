@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Prediction outputs (如果不想推送預測結果)
+predict/
+
+# 模型檔案（如果太大，可以考慮用 Git LFS）
+# weight/*.pt
