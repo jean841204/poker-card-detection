@@ -2,6 +2,12 @@
 
 基於 YOLOv8 分類模型的手寫數字辨識 Web 應用程式，提供互動式的數字辨識體驗。
 
+## 🌐 線上 Demo
+
+**立即試用**: [https://cybersecurityhw4-jean.streamlit.app/](https://cybersecurityhw4-jean.streamlit.app/)
+
+無需安裝，直接在瀏覽器中體驗完整功能！
+
 ## 📊 專案簡介
 
 本專案使用 **YOLOv8 Classification** 模型，在 USPS（United States Postal Service）手寫數字資料集上進行訓練。相較於常見的 MNIST 資料集，USPS 資料集來自真實郵件場景，包含更多自然書寫的變異性與挑戰性，因此更貼近實際應用情境。
