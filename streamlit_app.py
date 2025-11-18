@@ -123,16 +123,16 @@ def display_results(results, image):
 if 'page_mode' not in st.session_state:
     st.session_state['page_mode'] = "📤 上傳圖片"
 
-# 當選擇範例圖片時，自動切換到範例圖片模式
-if 'selected_example_image' in st.session_state:
-    st.session_state['page_mode'] = "📁 選擇範例圖片"
-
 page_mode = st.radio(
     "選擇輸入方式",
     ["📤 上傳圖片", "📁 選擇範例圖片"],
     horizontal=True,
     key='page_mode'
 )
+
+# 當切換到上傳圖片模式時，清除範例圖片選擇
+if page_mode == "📤 上傳圖片" and 'selected_example_image' in st.session_state:
+    del st.session_state['selected_example_image']
 
 st.markdown("---")
 
