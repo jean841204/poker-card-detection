@@ -4,7 +4,7 @@
 
 ## 🌐 線上 Demo
 
-**立即試用**: [https://cybersecurityhw4-jean.streamlit.app/](https://cybersecurityhw4-jean.streamlit.app/)
+**立即試用**: [https://poker-card-detection.streamlit.app/](https://poker-card-detection.streamlit.app/)
 
 無需安裝，直接在瀏覽器中體驗完整功能！
 
