@@ -27,3 +27,4 @@ predict/
 
 # 模型檔案（如果太大，可以考慮用 Git LFS）
 # weight/*.pt
+weight/best_數字.pt
